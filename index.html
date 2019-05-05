@@ -1,36 +1,13 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Newen Linguagens e Tecnologia</title>
-	<!-- link rel="stylesheet" type="text/css" href="/css/main.css" -->
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Início</a></li>
-	        	<li><a href="/sobre">Sobre</a></li>
-			<li><a href="/servicos">Serviços</a></li>
-        		<li><a href="/portfolio">Portfolio</a></li>
-        		<li><a href="/contato">Contato</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
+---
+layout: default
+title: {{ site.name }}
+---
 
-		   		<div class="blurb">
-        		<h1>Newen Linguagens e Tecnologia</h1>
-				<p>Somos uma pequena empresa observando e trabalhando com os idiomas e a tecnologia.</p>
-				<p><a href="/sobre">Conheça nossos serviços.</a></p>
-    		</div><!-- /.blurb -->
-
-
-
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:contato@newen.pub">email</a></li>
-        		<li><a href="https://github.com/newenpub/">github</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
-
+<div id="home">
+  <h1>Atualizações</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,6 @@
+Gemfile
+Gemfile.lock
+.bundle
+_site/
+jekyll-cayman-theme.gemspec
+index.html.old
