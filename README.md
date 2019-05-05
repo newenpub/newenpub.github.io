@@ -2,8 +2,8 @@
 
 # Contributing
 
-Bug reports and pull requests are welcome on [GitHub](https://github.com/newenpub/newenpub.github.io)
+Bug reports and pull requests are welcome on [GitHub](https://github.com/newenpub/newenpub.github.io).
 
 # Credits
 
-Check out the [cayman theme repository](https://github.com/jasonlong/cayman-theme). 
+Check out the [Cayman theme repository](https://github.com/jasonlong/cayman-theme). 
